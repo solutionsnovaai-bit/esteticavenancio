@@ -1,0 +1,39 @@
+/* Cormorant (variável: peso 300–700, normal e itálico) e Jost (variável: peso 100–900), servidas pelo próprio site. */
+@font-face {
+  font-family: 'Cormorant';
+  src: url('/fonts/cormorant.woff2') format('woff2');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant';
+  src: url('/fonts/cormorant-italico.woff2') format('woff2');
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/jost.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* Reservas com métricas parecidas, para o texto não pular quando a fonte chega. */
+@font-face {
+  font-family: 'Cormorant Reserva';
+  src: local('Georgia'), local('Times New Roman');
+  size-adjust: 88%;
+  ascent-override: 105%;
+  descent-override: 33%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Jost Reserva';
+  src: local('Arial'), local('Helvetica Neue'), local('Helvetica');
+  size-adjust: 96%;
+  ascent-override: 111%;
+  descent-override: 39%;
+  line-gap-override: 0%;
+}

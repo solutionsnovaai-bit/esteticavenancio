@@ -1,0 +1,40 @@
+/*
+  Cores e tokens, tirados da própria marca:
+  creme e areia (o papel do selo), parede e sombra (a parede ao sol da arte do topo),
+  azul (a serif dos títulos), letreiro (o metal escuro do selo), mata (as seções escuras),
+  rosé e malva (os acentos).
+*/
+@theme {
+  --color-creme: #F6EEE6;
+  --color-creme-2: #FBF7F2;
+  --color-areia: #ECDDCF;
+  --color-parede: #E3C59E;
+  --color-sombra: #B39374;
+  --color-azul: #1F3D5C;
+  --color-azul-2: #2C5278;
+  --color-letreiro: #132630;
+  --color-mata: #22362D;
+  --color-mata-2: #17261F;
+  --color-rose: #EBCDC5;
+  --color-rose-2: #F3E1DB;
+  --color-malva: #C2958E;
+  --color-tinta: #18241D;
+  --color-tinta-2: #44524A;
+  --color-linha: rgb(24 36 29 / 0.16);
+
+  --font-display: 'Cormorant', 'Cormorant Reserva', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Jost', 'Jost Reserva', ui-sans-serif, system-ui, sans-serif;
+
+  --ease-luxo: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-cortina: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-mola: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+:root {
+  --margem: clamp(20px, 5.2vw, 80px);
+  --largura: 1360px;
+  --topo-h: 76px;
+  --secao-y: clamp(96px, 12.5vw, 190px);
+  --raio: clamp(20px, 2.4vw, 34px);
+}
+@media (max-width: 767px) { :root { --topo-h: 64px; } }
